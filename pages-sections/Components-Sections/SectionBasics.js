@@ -33,7 +33,7 @@ export default function SectionBasics() {
               Varusteluun kuuluu kaikki nykyajan mukavuudet ulkoporealtaasta lähtien.
             </p>
             <p>
-              Villa sijaitsee rinteiden ja areenan lähietäisyydeltä. Lisäksi Himokselta löytyy aktiviteetteja kaikkina vuodenaikoina jokaiseen makuun.
+              Villa sijaitsee rinteiden ja areenan lähietäisyydellä. Lisäksi Himokselta löytyy aktiviteetteja kaikkina vuodenaikoina jokaiseen makuun.
             </p>
             <p>
               Majoittumaan mahtuu isommallakin porukalla, vuodepaikkoja löytyy n+1 kappaletta.

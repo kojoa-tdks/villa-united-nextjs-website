@@ -1,19 +1,16 @@
 /*eslint-disable*/
 import React from "react";
-import Link from "next/link";
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
-import Icon from "@material-ui/core/Icon";
 
 // @material-ui/icons
 import { Apps, CalendarToday } from "@material-ui/icons";
 
 // core components
-import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
 
 import styles from "styles/jss/nextjs-material-kit/components/headerLinksStyle.js";
@@ -26,9 +23,8 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+          href="#reservations"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           <CalendarToday className={classes.icons} /> Varaukset
@@ -43,11 +39,11 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+            href="https://www.instagram.com/himosvillaunited"
             target="_blank"
             className={classes.navLink}
           >
-            <i className={classes.socialIcons + " fab fa-instagram"} />
+            <i className={classes.socialIcons + " fab fa-instagram"} />Instagram
           </Button>
         </Tooltip>
       </ListItem>

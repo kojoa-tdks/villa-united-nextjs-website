@@ -3,7 +3,13 @@ const withImages = require("next-images");
 const webpack = require("webpack");
 const path = require("path");
 
-module.exports = withPlugins([[withImages]], {
+const withTM = require('next-transpile-modules')([
+  '@fullcalendar/common',
+  '@fullcalendar/react',
+  '@fullcalendar/daygrid'
+]);
+
+module.exports = withPlugins([[withTM, withImages]], {
   webpack(config, options) {
     config.resolve.modules.push(path.resolve("./"));
     return config;

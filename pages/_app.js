@@ -24,6 +24,10 @@ import Router from "next/router";
 import PageChange from "components/PageChange/PageChange.js";
 
 import "styles/scss/nextjs-material-kit.scss?v=1.2.0";
+import '@fullcalendar/common/main.css'
+import '@fullcalendar/daygrid/main.css'
+import '@fullcalendar/timegrid/main.css'
+import 'components/FullCalendar/override.css'
 
 Router.events.on("routeChangeStart", (url) => {
   console.log(`Loading: ${url}`);

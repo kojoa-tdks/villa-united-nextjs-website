@@ -16,6 +16,7 @@ import Button from "components/CustomButtons/Button.js";
 import Parallax from "components/Parallax/Parallax.js";
 // sections for this page
 import SectionBasics from "pages-sections/Components-Sections/SectionBasics.js";
+import SectionCalendar from "pages-sections/Components-sections/SectionCalendar.js"
 import SectionNavbars from "pages-sections/Components-Sections/SectionNavbars.js";
 import SectionTabs from "pages-sections/Components-Sections/SectionTabs.js";
 import SectionPills from "pages-sections/Components-Sections/SectionPills.js";
@@ -65,26 +66,31 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionBasics />
-        <SectionNavbars />
-        <SectionTabs />
-        <SectionPills />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavascript />
-        <SectionCarousel />
-        <SectionCompletedExamples />
-        <SectionLogin />
-        <GridItem md={12} className={classes.textCenter}>
-          <Link href="/login">
-            <a className={classes.link}>
-              <Button color="primary" size="lg" simple>
-                View Login Page
-              </Button>
-            </a>
-          </Link>
-        </GridItem>
-        <SectionExamples />
-        <SectionDownload />
+        <SectionCalendar />
+        {false && (
+        <div>
+          <SectionNavbars />
+          <SectionTabs />
+          <SectionPills />
+          <SectionNotifications />
+          <SectionTypography />
+          <SectionJavascript />
+          <SectionCarousel />
+          <SectionCompletedExamples />
+          <SectionLogin />
+          <GridItem md={12} className={classes.textCenter}>
+            <Link href="/login">
+              <a className={classes.link}>
+                <Button color="primary" size="lg" simple>
+                  View Login Page
+                </Button>
+              </a>
+            </Link>
+          </GridItem>
+          <SectionExamples />
+          <SectionDownload />
+        </div>
+        )}
       </div>
       <Footer />
     </div>
