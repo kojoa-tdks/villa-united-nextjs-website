@@ -16,7 +16,7 @@ import Button from "components/CustomButtons/Button.js";
 import Parallax from "components/Parallax/Parallax.js";
 // sections for this page
 import SectionBasics from "pages-sections/Components-Sections/SectionBasics.js";
-import SectionCalendar from "pages-sections/Components-sections/SectionCalendar.js"
+import SectionCalendar from "pages-sections/Components-Sections/SectionCalendar.js"
 import SectionNavbars from "pages-sections/Components-Sections/SectionNavbars.js";
 import SectionTabs from "pages-sections/Components-Sections/SectionTabs.js";
 import SectionPills from "pages-sections/Components-Sections/SectionPills.js";
