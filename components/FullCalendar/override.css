@@ -1,3 +1,15 @@
 .fc .fc-toolbar-title{
     font-size: 1.2em;
 }
+.fc .fc-daygrid-event {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+.fc .fc-event-time {
+    display: none;
+}
+
+.fc .fc-event-title {
+    padding-left: 5%;
+}

@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev"
   },
@@ -36,6 +37,7 @@
     "@fullcalendar/common": "^5.7.0",
     "@fullcalendar/core": "^5.7.0",
     "@fullcalendar/daygrid": "^5.7.0",
+    "@fullcalendar/google-calendar": "^5.7.0",
     "@fullcalendar/interaction": "^5.7.0",
     "@fullcalendar/react": "^5.7.0",
     "@fullcalendar/timegrid": "^5.7.0",

@@ -6,11 +6,12 @@ const parallaxStyle = (theme) => ({
     position: "relative",
     backgroundPosition: "center top",
     backgroundSize: "cover",
-    margin: "0",
+    margin: "0 auto",
     padding: "50px 0px 0px 0px",
     border: "0",
     display: "flex",
-    alignItems: "top"
+    alignItems: "top",
+    //maxWidth: "1920px"
   },
   filter: {
     "&:before": {
