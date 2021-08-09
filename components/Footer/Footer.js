@@ -70,7 +70,6 @@ export default function Footer(props) {
           </List>}
         </div>
         <div className={classes.left}>
-          Kansikuva &copy; Tomi Pohja
         </div>
         <div className={classes.right}>
           &copy; {1900 + new Date().getYear()} Saxcon Oy

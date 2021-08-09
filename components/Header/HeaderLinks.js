@@ -21,7 +21,8 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
-      <ListItem className={classes.listItem}>
+     {/* 
+     <ListItem className={classes.listItem}>
         <Button
           href="#reservations"
           color="transparent"
@@ -29,7 +30,8 @@ export default function HeaderLinks(props) {
         >
           <CalendarToday className={classes.icons} /> Varaukset
         </Button>
-      </ListItem>
+      </ListItem> 
+     */}
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"

@@ -22,10 +22,11 @@ export default function SectionBasics() {
       <GridContainer>
         <GridItem xs={12}>
           <div className={classes.title}>
-            <h2>Kuvaus</h2>
+            
+            <h2>Villa United</h2>
           </div>
         </GridItem>
-        <GridItem xs={12} sm ={8}>
+        <GridItem xs={13} sm ={9}>
           <div className={classes.typo}>
             <Primary>
             <p>
@@ -36,12 +37,15 @@ export default function SectionBasics() {
               Villa sijaitsee rinteiden ja areenan lähietäisyydellä. Lisäksi Himokselta löytyy aktiviteetteja kaikkina vuodenaikoina jokaiseen makuun.
             </p>
             <p>
-              Majoittumaan mahtuu isommallakin porukalla, vuodepaikkoja löytyy n+1 kappaletta.
+              Rakentaminen on aloitettu kesällä 2021. Varauksia voi jo tehdä keväälle 2022.
+            </p>
+            <p>
+              Varaukset: Antti Saxlin...
             </p>
             </Primary>
           </div>
         </GridItem>
-          <GridItem xs={12} sm={4}>
+          <GridItem xs={11} sm={3}>
           <div>
             <img
               src="/img/palju2.jpeg"
@@ -55,6 +59,26 @@ export default function SectionBasics() {
               }
             />
           </div>
+          </GridItem>
+      </GridContainer>
+
+      <GridContainer>
+        <GridItem xs={12}>
+          <div className={classes.title}>
+            
+            <h2>Lähialueen palvelut</h2>
+          </div>
+        </GridItem>
+        <GridItem xs={13} sm ={9}>
+          <div className={classes.typo}>
+            <Primary>
+            <p>
+              Tähän jotain tarinoita lähialueen palveluista?
+            </p>
+            </Primary>
+          </div>
+        </GridItem>
+          <GridItem xs={11} sm={3}>
           </GridItem>
       </GridContainer>
       </div>
