@@ -82,7 +82,7 @@ export default function SectionBasics() {
         </GridItem>
         <GridItem xs={12} sm ={7}>
         <div>
-        <a href=""><img
+        <a href="https://www.google.com/maps/place/61%C2%B052'48.3%22N+25%C2%B018'30.9%22E/@61.8817429,25.2996062,1314m/data=!3m1!1e3!4m6!3m5!1s0x0:0x0!7e2!8m2!3d61.8800901!4d25.308577"><img
               src="/img/himoskartta.png"
               className={
                 classes.imgRaised +
@@ -96,7 +96,7 @@ export default function SectionBasics() {
             <Primary>
             <br/>
             <p>
-              Klikkaa kuvaa ja vilkaise tarkempi sijainti <a href="">Google Mapsista </a> 
+              Klikkaa kuvaa ja vilkaise tarkempi sijainti <a href="https://www.google.com/maps/place/61%C2%B052'48.3%22N+25%C2%B018'30.9%22E/@61.8817429,25.2996062,1314m/data=!3m1!1e3!4m6!3m5!1s0x0:0x0!7e2!8m2!3d61.8800901!4d25.308577">Google Mapsista </a> 
               <Hidden smUp>tai katso ajo-ohjeet oheisesta videosta</Hidden>
             </p>
             </Primary>
