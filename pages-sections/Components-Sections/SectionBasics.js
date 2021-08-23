@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Primary from "components/Typography/Primary.js";
+import Hidden from '@material-ui/core/Hidden';
 
 import styles from "styles/jss/nextjs-material-kit/pages/componentsSections/basicsStyle.js";
 
@@ -26,15 +27,28 @@ export default function SectionBasics() {
             <h2>Villa United</h2>
           </div>
         </GridItem>
-        <GridItem xs={13} sm ={9}>
+        <GridItem xs={11} sm={5}>
+          <div>
+            <img
+              src="/img/himos-villa-united-layout.png"
+              className={
+                classes.imgRaised +
+                " " +
+                classes.imgRounded +
+                " " +
+                classes.imgFluid
+              }
+            />
+          </div>
+        </GridItem>
+        
+        <GridItem xs={13} sm ={7}>
           <div className={classes.typo}>
+            <br/>
             <Primary>
             <p>
               Tervetuloa viettämään lomaa tai vaikka yrityksen virkistyspäivää huipputasoiseen villaan Himoksen maisemiin.
               Varusteluun kuuluu kaikki nykyajan mukavuudet ulkoporealtaasta lähtien.
-            </p>
-            <p>
-              Villa sijaitsee rinteiden ja areenan lähietäisyydellä. Lisäksi Himokselta löytyy aktiviteetteja kaikkina vuodenaikoina jokaiseen makuun.
             </p>
             <p>
               Rakentaminen on aloitettu kesällä 2021. Varauksia voi jo tehdä keväälle 2022.
@@ -45,41 +59,50 @@ export default function SectionBasics() {
             </Primary>
           </div>
         </GridItem>
-          <GridItem xs={11} sm={3}>
-          <div>
-            <img
-              src="/img/palju2.jpeg"
-              alt="..."
-              className={
-                classes.imgRaised +
-                " " +
-                classes.imgRoundedCircle +
-                " " +
-                classes.imgFluid
-              }
-            />
-          </div>
-          </GridItem>
-      </GridContainer>
 
-      <GridContainer>
-        <GridItem xs={12}>
+        <GridItem xs={12} sm={12}>
+          <div className={classes.space70}/>
+        </GridItem>
+
+        <GridItem xs={12} sm={12}>
           <div className={classes.title}>
             
-            <h2>Lähialueen palvelut</h2>
+            <h2>Sijainti</h2>
           </div>
         </GridItem>
-        <GridItem xs={13} sm ={9}>
-          <div className={classes.typo}>
+        <GridItem xs={12} sm ={5}>
+        <div className={classes.typo}>
             <Primary>
+            <br/>
             <p>
-              Tähän jotain tarinoita lähialueen palveluista?
+              Villa sijaitsee rinteiden ja areenan lähietäisyydellä. Lisäksi Himokselta löytyy aktiviteetteja kaikkina vuodenaikoina jokaiseen makuun.
             </p>
             </Primary>
           </div>
         </GridItem>
-          <GridItem xs={11} sm={3}>
-          </GridItem>
+        <GridItem xs={12} sm ={7}>
+        <div>
+        <a href=""><img
+              src="/img/himoskartta.png"
+              className={
+                classes.imgRaised +
+                " " +
+                classes.imgRounded +
+                " " +
+                classes.imgFluid
+              }
+            /></a>
+           <div className={classes.typo}>
+            <Primary>
+            <br/>
+            <p>
+              Klikkaa kuvaa ja vilkaise tarkempi sijainti <a href="">Google Mapsista </a> 
+              <Hidden smUp>tai katso ajo-ohjeet oheisesta videosta</Hidden>
+            </p>
+            </Primary>
+          </div>
+          </div>
+        </GridItem>
       </GridContainer>
       </div>
     </div>

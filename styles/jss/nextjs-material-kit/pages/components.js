@@ -11,11 +11,13 @@ const componentsStyle = {
     fontWeight: "600",
     display: "inline-block",
     position: "relative",
+    filter: "drop-shadow(1px 1px 10px black)"
   },
   subtitle: {
-    fontSize: "1.313rem",
+    fontSize: "1.413rem",
     maxWidth: "510px",
     margin: "10px 0 0",
+    filter: "drop-shadow(1px 1px 2px black)"
   },
   main: {
     background: "#FFFFFF",
