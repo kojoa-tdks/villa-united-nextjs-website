@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
@@ -9,10 +9,17 @@ import Hidden from '@material-ui/core/Hidden';
 
 import styles from "styles/jss/nextjs-material-kit/pages/componentsSections/basicsStyle.js";
 
+import ReactPlayer from 'react-player';
+
 const useStyles = makeStyles(styles);
 
 export default function SectionBasics() {
   const classes = useStyles();
+
+  const [seekBarHidden, setSeekBarHidden] = useState(true);
+  const [videoEnded, setVideoEnded] = useState(false);
+  const playerRef = useRef();
+
 
   React.useEffect(() => {});
 
@@ -113,6 +120,28 @@ export default function SectionBasics() {
           </div>
           </div>
         </GridItem>
+        <Hidden smUp>
+        <GridItem xs={12}>
+          <div>
+            <ReactPlayer 
+              url="https://himos-villa-united.s3.eu-north-1.amazonaws.com/himos_drive.mp4" 
+              width='100%' 
+              height='100%' 
+              playing
+              playIcon={<button>Katso video</button>}
+              light='/img/video_light.png'
+              onPlay={() => {window.scrollBy(0, 600); setSeekBarHidden(false);}}
+              onEnded={() => {setVideoEnded(true)}}
+              ref={playerRef}
+              />
+          </div>
+        </GridItem>
+        <GridItem>
+
+        <center><button onClick={()=>{playerRef.current.seekTo(0.0); setVideoEnded(false)}} hidden={!videoEnded}>Katso uudestaan</button></center>
+
+        </GridItem>
+        </Hidden>
       </GridContainer>
       </div>
     </div>
