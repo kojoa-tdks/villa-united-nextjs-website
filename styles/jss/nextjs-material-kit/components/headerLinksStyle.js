@@ -15,7 +15,7 @@ const headerLinksStyle = (theme) => ({
   },
   listItem: {
     float: "left",
-    color: "inherit",
+    color: "black",
     position: "relative",
     display: "block",
     width: "auto",
@@ -107,6 +107,7 @@ const headerLinksStyle = (theme) => ({
     position: "relative",
     fontSize: "20px !important",
     marginRight: "4px",
+    color: "black"
   },
   dropdownLink: {
     "&,&:hover,&:focus": {

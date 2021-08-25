@@ -35,7 +35,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"
-          title="Follow us on instagram"
+          title="Seuraa meitä instagramissa"
           placement={"top"}
           classes={{ tooltip: classes.tooltip }}
         >
@@ -46,6 +46,23 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
           >
             <i className={classes.socialIcons + " fab fa-instagram"} />Instagram
+          </Button>
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="tiktok-tooltip"
+          title="Seuraa meitä tiktokissa"
+          placement={"top"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://www.tiktok.com/@himosvillaunited?lang=fi"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + " fab fa-tiktok"} />TikTok
           </Button>
         </Tooltip>
       </ListItem>
