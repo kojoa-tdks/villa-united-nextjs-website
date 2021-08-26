@@ -124,7 +124,7 @@ export default function SectionBasics() {
         <GridItem xs={12}>
           <div>
             <ReactPlayer 
-              url="https://himos-villa-united.s3.eu-north-1.amazonaws.com/himos_drive.mp4" 
+              url="himos_drive.mp4" 
               width='100%' 
               height='100%' 
               playing
