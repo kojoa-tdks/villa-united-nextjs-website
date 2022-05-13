@@ -34,7 +34,7 @@ export default function SectionBasics() {
             <h2>Himos Villa United</h2>
           </div>
         </GridItem>
-        <GridItem xs={11} sm={5}>
+        <GridItem xs={12} sm={5}>
           <div>
             <img
               src="/img/terassi.jpg"
