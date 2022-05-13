@@ -51,6 +51,7 @@ export default function SectionBasics() {
         
         <GridItem xs={12} sm ={7}>
           <div className={classes.typo}>
+            <br/>
             <Primary>
             <p>
             Jos etsit yrityksellesi, perheellesi tai kaveriporukalle isompaa ja laadukkaampaa mökkiä Himokselta, niin
