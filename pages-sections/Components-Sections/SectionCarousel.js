@@ -33,46 +33,46 @@ export default function SectionCarousel() {
             <Card carousel>
               <Carousel {...settings}>
                 <div>
-                  <img
+                  <a href="/img/ruokailu1.jpg" target="_blank"><img
                     src="/img/ruokailu1.jpg"
                     alt=""
                     className="slick-image"
-                  />
+                  /></a>
                 </div>
                 <div>
-                  <img
+                  <a href="/img/ruokailu2.jpg" target="_blank"><img
                     src="/img/ruokailu2.jpg"
                     alt=""
                     className="slick-image"
-                  />
+                  /></a>
                 </div>
                 <div>
-                  <img
+                  <a href="/img/ruokailu3.jpg" target="_blank"><img
                     src="/img/ruokailu3.jpg"
                     alt="Third slide"
                     className="slick-image"
-                  />
+                  /></a>
                 </div>
                 <div>
-                  <img
+                  <a href="/img/kokous.jpg" target="_blank"><img
                     src="/img/kokous.jpg"
                     alt="Third slide"
                     className="slick-image"
-                  />
+                  /></a>
                 </div>
                 <div>
-                  <img
+                  <a href="/img/huone.jpg" target="_blank"><img
                     src="/img/huone.jpg"
                     alt="Third slide"
                     className="slick-image"
-                  />
+                  /></a>
                 </div>
                 <div>
-                  <img
+                  <a href="/img/sauna2.jpg" target="_blank"><img
                     src="/img/sauna2.jpg"
                     alt="Third slide"
                     className="slick-image"
-                  />
+                  /></a>
                 </div>
               </Carousel>
             </Card>
