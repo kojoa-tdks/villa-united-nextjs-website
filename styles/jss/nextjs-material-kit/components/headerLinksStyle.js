@@ -11,7 +11,7 @@ const headerLinksStyle = (theme) => ({
     listStyle: "none",
     paddingTop: "0",
     paddingBottom: "0",
-    color: "inherit",
+    color: "inherit"
   },
   listItem: {
     float: "left",
@@ -27,10 +27,10 @@ const headerLinksStyle = (theme) => ({
       "&:after": {
         width: "calc(100% - 30px)",
         content: '""',
-        display: "block",
+        display: "none",
         height: "1px",
         marginLeft: "15px",
-        backgroundColor: "#e5e5e5",
+        backgroundColor: "black",
       },
     },
   },
@@ -61,6 +61,8 @@ const headerLinksStyle = (theme) => ({
       textAlign: "left",
       "& > span:first-child": {
         justifyContent: "flex-start",
+        backgroundColor: "black",
+
       },
     },
   },
