@@ -37,7 +37,7 @@ export default function SectionBasics() {
         <GridItem xs={12} sm={5}>
           <div>
             <img
-              src="/img/terassi.jpg"
+              src="/img/sauna.jpg"
               className={
                 classes.imgRaised +
                 " " +
