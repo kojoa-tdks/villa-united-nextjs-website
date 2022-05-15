@@ -54,22 +54,22 @@ export default function SectionBasics() {
             <br/>
             <Primary>
             <p>
-            Jos etsit yrityksellesi, perheellesi tai kaveriporukalle isompaa ja laadukkaampaa mökkiä Himokselta, niin
-            keväällä 2022 valmistuva Himos Villa United täyttää vaativammatkin toiveet rennolle lomalle,
-            henkilöstötilaisuudelle tai asiakastapahtumalle. 
+            Jos etsit yrityksellesi, perheellesi tai kaveriporukalle isompaa ja laadukkaampaa mökkiä Himokselta, 
+            niin Himos Villa United täyttää vaativammatkin toiveet rennolle lomalle, henkilöstötilaisuudelle tai 
+            asiakastapahtumalle.
             </p>
             <p>
-            Himos Villa Unitedin seitsemän makuuhuonetta ja
-            neljätoista sänkypaikkaa mahdollistaa isommankin porukan majoittumisen ja tämän lisäksi on vielä lisätilaa
-            perheen pienimpien matkasängyille. Panoraamasauna ja parveketerassille upotettu poreamme ovat
-            ylpeytemme, toivottavasti sinäkin tulet niitä testaamaan! Meille tulee myös yli kymmenen hengen
-            kokoustila erilaisiin yritystilaisuuksiin, eli kokoustaminen ja rento illanvietto onnistuu saman katon alla.
+            Himos Villa Unitedin seitsemän makuuhuonetta ja neljätoista sänkypaikkaa mahdollistaa isommankin 
+            porukan majoittumisen ja tämän lisäksi on vielä lisätilaa perheen pienimpien matkasängyille. 
+            Panoraamasauna ja parveketerassille upotettu poreamme ovat ylpeytemme, toivottavasti sinäkin 
+            tulet niitä testaamaan ja nauttimaan Himoksen upeimmista maisemista! Meillä on noin kymmenen 
+            hengen kokoustila erilaisiin yritystilaisuuksiin, eli kokoustaminen ja rento illanvietto 
+            onnistuu saman katon alla. Kokoustilassa on mm. iso näyttö, kotiteatterijärjestelmä ja oma keittiö.
             </p>
             <p>
-            Huvilan rakennustyöt aloitettiin keväällä 2021 ja Himos Villa United on valmis ottamaan vastaan
-            ensimmäiset vieraansa huhtikuussa 2022. Otamme jo nyt varauksia vastaan ensi keväälle. Annamme
-            mielellämme lisätietoja alla olevista yhteystiedoista. Muista myös seurata Himos Villa Unitedin
-            rakentumista somekanavistamme!
+            Huvila valmistui keväällä 2022 ja olemme saaneet loistavaa palautetta ensimmäisiltä vuokralaisiltamme! 
+            Annamme mielellämme lisätietoja alla olevista yhteystiedoista. Muista myös seurata 
+            Himos Villa Unitedia somekanavistamme!
             </p>
             <h3>Vuokraukset ja lisätiedot</h3>
             <p>Antti Saxlin<br/>
@@ -89,10 +89,9 @@ export default function SectionBasics() {
             <Primary>
             <br/>
             <p>
-            Himos Villa United sijaitsee osoitteessa Himoslehdontie 14, 42100 Jämsä. Naapurissamme sijaitseva
-            vesitorni on Himoksen maamerkki, mikä näkyy aina valtatielle asti. Huvilamme sijaitsee rinteen
-            välittömässä läheisyydessä, eli mökin pihassa voi laittaa sukset jalkaan ja laskea suoraan rinteeseen. Himos
-            Arena ja laskettelukeskuksen palvelut ovat kävelymatkan päässä.
+            Himos Villa United sijaitsee osoitteessa Himoslehdontie 14, 42100 Jämsä, Himoslehdontien päässä vesitornin vieressä. 
+            Huvilamme sijaitsee laskettelurinteen välittömässä läheisyydessä, eli mökin pihassa voi laittaa sukset jalkaan ja 
+            laskea suoraan rinteeseen. Himos Arena ja laskettelukeskuksen palvelut ovat kävelymatkan päässä.
             </p>
             </Primary>
           </div>
