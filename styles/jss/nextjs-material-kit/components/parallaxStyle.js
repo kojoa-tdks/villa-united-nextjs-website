@@ -12,6 +12,15 @@ const parallaxStyle = (theme) => ({
     display: "flex",
     alignItems: "top",
     //maxWidth: "1920px"
+    backgroundImage: "url('/img/poreallas.jpg')",
+    WebkitTransition: "background-image 1s ease-in-out",
+    MozTransition: "background-image 1s ease-in-out",
+    OTransition: "background-image 1s ease-in-out",
+    transition: "background-image 1s ease-in-out",
+    [theme.breakpoints.down("xs")]: {
+        backgroundImage: "url('/img/poreallas2.jpg')",
+    }
+
   },
   filter: {
     "&:before": {
@@ -30,6 +39,7 @@ const parallaxStyle = (theme) => ({
   },
   small: {
     height: "380px",
+
   },
 
   parallaxResponsive: {
