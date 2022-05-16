@@ -6,7 +6,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Primary from "components/Typography/Primary.js";
 import Hidden from '@material-ui/core/Hidden';
-
+import SectionCarousel from 'pages-sections/Components-Sections/SectionCarousel.js';
 import styles from "styles/jss/nextjs-material-kit/pages/componentsSections/basicsStyle.js";
 
 import ReactPlayer from 'react-player';
@@ -77,6 +77,16 @@ export default function SectionBasics() {
             <a href="mailto:antti.saxlin@saxcon.fi">antti.saxlin@saxcon.fi</a></p>
             </Primary>
           </div>
+        </GridItem>
+
+        <GridItem xs={12} sm={12}>
+          <div className={classes.title}>      
+            <br/>
+            <h2>Valokuvia</h2>
+          </div>
+        </GridItem>
+        <GridItem xs={12} sm ={12}>
+        <SectionCarousel />
         </GridItem>
 
         <GridItem xs={12} sm={12}>

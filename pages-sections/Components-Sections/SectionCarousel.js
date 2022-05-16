@@ -19,56 +19,60 @@ export default function SectionCarousel() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
+    autoplaySpeed: 5000
   };
   return (
     <div className={classes.section}>
       <div className={classes.container}>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
+          <GridItem xs={12} sm={12} md={10} className={classes.marginAuto}>
             <Card carousel>
               <Carousel {...settings}>
                 <div>
-                  <img
-                    src="/img/bg.jpg"
-                    alt="First slide"
+                  <a href="/img/ruokailu1.jpg" target="_blank"><img
+                    src="/img/ruokailu1.jpg"
+                    alt=""
                     className="slick-image"
-                  />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
-                    </h4>
-                  </div>
+                  /></a>
                 </div>
                 <div>
-                  <img
-                    src="/img/bg2.jpg"
-                    alt="Second slide"
+                  <a href="/img/ruokailu2.jpg" target="_blank"><img
+                    src="/img/ruokailu2.jpg"
+                    alt=""
                     className="slick-image"
-                  />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Somewhere Beyond, United States
-                    </h4>
-                  </div>
+                  /></a>
                 </div>
                 <div>
-                  <img
-                    src="/img/bg3.jpg"
+                  <a href="/img/ruokailu3.jpg" target="_blank"><img
+                    src="/img/ruokailu3.jpg"
                     alt="Third slide"
                     className="slick-image"
-                  />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
-                    </h4>
-                  </div>
+                  /></a>
+                </div>
+                <div>
+                  <a href="/img/kokous.jpg" target="_blank"><img
+                    src="/img/kokous.jpg"
+                    alt="Third slide"
+                    className="slick-image"
+                  /></a>
+                </div>
+                <div>
+                  <a href="/img/huone.jpg" target="_blank"><img
+                    src="/img/huone.jpg"
+                    alt="Third slide"
+                    className="slick-image"
+                  /></a>
+                </div>
+                <div>
+                  <a href="/img/sauna2.jpg" target="_blank"><img
+                    src="/img/sauna2.jpg"
+                    alt="Third slide"
+                    className="slick-image"
+                  /></a>
                 </div>
               </Carousel>
             </Card>
