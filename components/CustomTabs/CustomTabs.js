@@ -36,6 +36,7 @@ export default function CustomTabs(props) {
         {title !== undefined ? <div className={cardTitle}>{title}</div> : null}
         <Tabs
           value={value}
+          variant={'scrollable'}
           onChange={handleChange}
           classes={{
             root: classes.tabsRoot,
