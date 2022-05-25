@@ -89,20 +89,6 @@ export default function SectionCarousel() {
                   /></a>
                 </div>
                 <div>
-                  <a href="/img/sauna2.jpg" target="_blank"><img
-                    src="/img/sauna2.jpg"
-                    alt=""
-                    className="slick-image"
-                  /></a>
-                </div>
-                <div>
-                  <a href="/img/ulkopuoli.jpg" target="_blank"><img
-                    src="/img/ulkopuoli.jpg"
-                    alt=""
-                    className="slick-image"
-                  /></a>
-                </div>
-                <div>
                   <a href="/img/rinne.jpg" target="_blank"><img
                     src="/img/rinne.jpg"
                     alt=""
