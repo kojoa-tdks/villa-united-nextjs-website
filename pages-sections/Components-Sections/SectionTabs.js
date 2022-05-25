@@ -37,23 +37,6 @@ export default function SectionTabs() {
                       </p>
                     ),
                   },
-                  {
-                    tabName: "Yritys2 Oy",
-                    tabContent: (
-                      <p className={classes.textCenter} style={{fontStyle:'italic', minHeight: '200px'}}>
-                        Nice!
-                      </p>
-                    ),
-                  }
-                  ,
-                  {
-                    tabName: "Yritys3 Oy",
-                    tabContent: (
-                      <p className={classes.textCenter} style={{fontStyle:'italic', minHeight: '200px'}}>
-                        5/5 tähteä!
-                      </p>
-                    ),
-                  }
                 ]}
               />
             </GridItem>
