@@ -37,6 +37,17 @@ export default function SectionTabs() {
                       </p>
                     ),
                   },
+                  {
+                    tabName: "Jyväskylän normaalikoulu",
+                    tabContent: (
+                      <p className={classes.textCenter} style={{fontStyle:'italic', minHeight: '200px'}}>
+                        Jyväskylän normaalikoulun laajennetun johtoryhmän (13 henkilöä) kaksipäiväinen seminaari onnistui erinomaisesti Villa Unitedin mainioissa puitteissa kesäkuussa 2022. 
+                        <br/><br/>
+                        
+                        Antero Hietamäki, johtava rehtori
+                      </p>
+                    ),
+                  },
                 ]}
               />
             </GridItem>
