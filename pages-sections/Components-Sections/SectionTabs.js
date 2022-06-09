@@ -38,7 +38,7 @@ export default function SectionTabs() {
                     ),
                   },
                   {
-                    tabName: "Jyväskylän normaalikoulu",
+                    tabName: "Jyväskylän Yliopisto",
                     tabContent: (
                       <p className={classes.textCenter} style={{fontStyle:'italic', minHeight: '200px'}}>
                         Jyväskylän normaalikoulun laajennetun johtoryhmän (13 henkilöä) kaksipäiväinen seminaari onnistui erinomaisesti Villa Unitedin mainioissa puitteissa kesäkuussa 2022. 
