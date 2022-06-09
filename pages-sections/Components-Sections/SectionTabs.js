@@ -48,6 +48,19 @@ export default function SectionTabs() {
                       </p>
                     ),
                   },
+                  {
+                    tabName: "Iina Kaisko",
+                    tabContent: (
+                      <p className={classes.textCenter} style={{fontStyle:'italic', minHeight: '200px'}}>
+                        Majoituimme huvilalla pe-su 12 hengen porukalla.Tilaa oli riittävästi ja paikka täytti vaativammankin mökkeilijän tarpeet. 
+                        Parasta oli kelluminen poreissa ihaillen Himoksen upeita maisemia ja kokkipalvelu, joka loihti joukolle mahtavan illallisen. 
+                        Ihanan huoletonta, kun pystyi ulkoistamaan yhden illan ruokailut täysin. Paikka sai paljon kiitosta kaikilta osallistujilta!
+                        <br/><br/>
+                        Iina Kaisko
+                        
+                      </p>
+                    ),
+                  },
                 ]}
               />
             </GridItem>
