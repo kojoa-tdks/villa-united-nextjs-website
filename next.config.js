@@ -14,4 +14,5 @@ module.exports = withPlugins([[withTM, withImages]], {
     config.resolve.modules.push(path.resolve("./"));
     return config;
   },
+  webpack5: false,
 });
