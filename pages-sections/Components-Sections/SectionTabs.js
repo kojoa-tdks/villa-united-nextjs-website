@@ -61,6 +61,18 @@ export default function SectionTabs() {
                       </p>
                     ),
                   },
+                  {
+                    tabName: "Samuli Halonen",
+                    tabContent: (
+                      <p className={classes.textCenter} style={{fontStyle:'italic', minHeight: '200px'}}>
+                        Varmasti vielä jatkossakin, jos himokselle päin kokoonnumme porukalla, niin villasi on ykkös vaihtoehto meille. 
+                        Halusimme myös veljeni polttareihin vain parasta ja sitä villaltasi sai! 10/10
+                        <br/><br/>
+                        Samuli Halonen
+                        
+                      </p>
+                    ),
+                  },
                 ]}
               />
             </GridItem>
@@ -69,3 +81,5 @@ export default function SectionTabs() {
     </div>
   );
 }
+
+
