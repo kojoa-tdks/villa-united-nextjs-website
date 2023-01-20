@@ -10,7 +10,6 @@ import SectionCarousel from 'pages-sections/Components-Sections/SectionCarousel.
 import SectionTabs from 'pages-sections/Components-Sections/SectionTabs.js';
 
 import styles from "styles/jss/nextjs-material-kit/pages/componentsSections/basicsStyle.js";
-
 import ReactPlayer from 'react-player';
 
 const useStyles = makeStyles(styles);
@@ -21,7 +20,6 @@ export default function SectionBasics() {
   const [seekBarHidden, setSeekBarHidden] = useState(true);
   const [videoEnded, setVideoEnded] = useState(false);
   const playerRef = useRef();
-
 
   React.useEffect(() => {});
 
@@ -79,6 +77,20 @@ export default function SectionBasics() {
             <a href="mailto:antti.saxlin@saxcon.fi">antti.saxlin@saxcon.fi</a></p>
             </Primary>
           </div>
+        </GridItem>
+
+        <GridItem xs={12} sm={12}>
+          <div className={classes.title}>      
+            <br/>
+            <h2>Esittely</h2>
+          </div>
+        </GridItem>
+        <GridItem xs={12} sm ={12}>
+        <ReactPlayer
+            className='youtubevideo'
+            url="https://youtu.be/R7VHnhhR-S0"
+            width='100%'
+            />
         </GridItem>
 
         <GridItem xs={12} sm={12}>
