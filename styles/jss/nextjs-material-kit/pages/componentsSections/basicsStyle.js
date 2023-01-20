@@ -2,6 +2,7 @@ import { container, title } from "styles/jss/nextjs-material-kit.js";
 import imagesStyles from "styles/jss/nextjs-material-kit/imagesStyles.js";
 
 const basicsStyle = {
+
   sections: {
     padding: "20px",
   },

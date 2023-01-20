@@ -86,11 +86,7 @@ export default function SectionBasics() {
           </div>
         </GridItem>
         <GridItem xs={12} sm ={12}>
-        <ReactPlayer
-            className='youtubevideo'
-            url="https://youtu.be/R7VHnhhR-S0"
-            width='100%'
-            />
+          <iframe frameBorder="0" height="500" width="100%" src="https://www.youtube.com/embed/R7VHnhhR-S0"></iframe> 
         </GridItem>
 
         <GridItem xs={12} sm={12}>
