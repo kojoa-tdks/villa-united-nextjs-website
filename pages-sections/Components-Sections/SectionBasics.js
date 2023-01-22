@@ -129,7 +129,7 @@ export default function SectionBasics() {
         <GridItem xs={12} sm ={7}>
         <div>
         <a href="https://www.google.com/maps/place/61%C2%B052'48.3%22N+25%C2%B018'30.9%22E/@61.8817429,25.2996062,1314m/data=!3m1!1e3!4m6!3m5!1s0x0:0x0!7e2!8m2!3d61.8800901!4d25.308577"><img
-              src="/img/himoskartta.png"
+              src="/img/himoskartta.jpg"
               className={
                 classes.imgRaised +
                 " " +
