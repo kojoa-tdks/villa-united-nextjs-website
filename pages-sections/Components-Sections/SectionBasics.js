@@ -86,7 +86,7 @@ export default function SectionBasics() {
           </div>
         </GridItem>
         <GridItem xs={12} sm ={12}>
-          <iframe style={{aspectRatio: '16/9'}} frameBorder="0" height="auto" width="100%" src="https://www.youtube.com/embed/R7VHnhhR-S0"></iframe> 
+          <iframe allow="fullscreen;" style={{aspectRatio: '16/9'}} frameBorder="0" height="auto" width="100%" src="https://www.youtube.com/embed/R7VHnhhR-S0"></iframe> 
         </GridItem>
 
         <GridItem xs={12} sm={12}>
