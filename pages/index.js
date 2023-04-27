@@ -3,7 +3,6 @@ import React from "react";
 import classNames from "classnames";
 // react components for routing our app without refresh
 import Link from "next/link";
-import Script from 'next/script'
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
@@ -95,19 +94,6 @@ export default function Components(props) {
         )}
       </div>
       <Footer />
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-JYHGXWT3TM"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-JYHGXWT3TM');
-          `}
-        </Script>
     </div>
   );
 }

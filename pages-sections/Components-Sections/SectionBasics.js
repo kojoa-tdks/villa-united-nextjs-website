@@ -73,7 +73,7 @@ export default function SectionBasics() {
             </p>
             <h3>Vuokraukset ja lisätiedot</h3>
             <p>Antti Saxlin<br/>
-            040-7523753<br/>
+            <a href="tel:040-7523753">040-7523753</a><br/>
             <a href="mailto:antti.saxlin@saxcon.fi">antti.saxlin@saxcon.fi</a></p>
             </Primary>
           </div>

@@ -20,6 +20,7 @@ import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
+import TagManager from 'react-gtm-module';
 
 import PageChange from "components/PageChange/PageChange.js";
 
@@ -47,7 +48,11 @@ Router.events.on("routeChangeError", () => {
 });
 
 export default class MyApp extends App {
+
   componentDidMount() {
+
+    TagManager.initialize({ gtmId: 'GTM-P7WJQLM' });
+
     let comment = document.createComment(`
 
 =========================================================
